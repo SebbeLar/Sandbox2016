@@ -8,3 +8,9 @@ function myFunction(a, b) {
     }
     return a + b;
 };
+
+function myASyncFunction(ms, a) {
+    setTimeout(function() {
+        return a * a;
+    }, ms);
+};

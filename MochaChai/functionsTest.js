@@ -21,3 +21,11 @@ describe('myFunction', function() {
         expect(tot).to.equal(12);
     });
 });
+
+// describe('myASyncFunction', function() {
+//     it('should return 9', function() {
+//         var tot = myASyncFunction(1000, 3);
+
+//         expect(tot).to.equal(9);
+//     });
+// });
