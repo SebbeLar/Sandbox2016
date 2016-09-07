@@ -14,3 +14,7 @@ function myASyncFunction(ms, a) {
         return a * a;
     }, ms);
 };
+
+function myObjFunc(obj) {
+    return obj.name;
+}

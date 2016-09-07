@@ -22,6 +22,14 @@ describe('myFunction', function() {
     });
 });
 
+describe('myObjFunc', function() {
+    it('should return name', function() {
+        var name = myObjFunc({ name: 'John' });
+
+        expect(name).to.equal('John');
+    });
+});
+
 // describe('myASyncFunction', function() {
 //     it('should return 9', function() {
 //         var tot = myASyncFunction(1000, 3);
