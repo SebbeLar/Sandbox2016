@@ -11,10 +11,14 @@ function myFunction(a, b) {
 
 function myASyncFunction(ms, a) {
     setTimeout(function() {
-        return a * a;
+        return (a * a);
     }, ms);
 };
 
 function myObjFunc(obj) {
     return obj.name;
 }
+
+const test = (bajs) => console.log(bajs);
+
+test('HEJ!'); 

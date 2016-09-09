@@ -30,10 +30,16 @@ describe('myObjFunc', function() {
     });
 });
 
-// describe('myASyncFunction', function() {
-//     it('should return 9', function() {
-//         var tot = myASyncFunction(1000, 3);
+describe('myASyncFunction', function() {
+    it('should return 9', function(done) {
+        var tot = myASyncFunction(100, 3);
 
-//         expect(tot).to.equal(9);
-//     });
-// });
+        setTimeout(function() {
+            expect(tot).to.equal(9);
+            done();
+        }, 1001); 
+            
+        
+        
+    });
+});
