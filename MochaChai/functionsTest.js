@@ -29,17 +29,3 @@ describe('myObjFunc', function() {
         expect(name).to.equal('John');
     });
 });
-
-describe('myASyncFunction', function() {
-    it('should return 9', function(done) {
-        var tot = myASyncFunction(100, 3);
-
-        setTimeout(function() {
-            expect(tot).to.equal(9);
-            done();
-        }, 1001); 
-            
-        
-        
-    });
-});

@@ -21,4 +21,4 @@ function myObjFunc(obj) {
 
 const test = (bajs) => console.log(bajs);
 
-test('HEJ!'); 
+ 
