@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import UserInfo from './userInfo';
 
 class App extends Component {
   constructor() {
@@ -44,6 +45,7 @@ class App extends Component {
           <div key={user.id} onClick={() => this.getUser(user)}>{user.name}</div>
           );
         }) }
+        <UserInfo data={this.state.activeUser} />
       </div>
       );
   }
