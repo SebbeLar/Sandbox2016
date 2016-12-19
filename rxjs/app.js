@@ -52,6 +52,6 @@ var responseStream = requestStream
   );
 
 responseStream.subscribe(response => {
-  console.log('ok2');
+  console.log('Rebase tester');
   console.log(response.json());
 });
