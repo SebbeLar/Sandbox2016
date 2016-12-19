@@ -13,7 +13,7 @@ class MyObserver {
     console.log(`Error: ${e}`);
   }
   complete() {
-    console.log('Target copy');
+    console.log('Rebase Test');
   }
 };
 
