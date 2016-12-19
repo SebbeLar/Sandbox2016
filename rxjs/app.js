@@ -13,7 +13,7 @@ class MyObserver {
     console.log(`Error: ${e}`);
   }
   complete() {
-    console.log('Done');
+    console.log('Merge copy');
   }
 };
 
